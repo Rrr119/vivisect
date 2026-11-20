@@ -32,7 +32,7 @@ Vivisect has a rich environment for reverse-engineering / vulnerability research
 
 While there are many fully featured tools/libraries, most of the functionality is provided from the Vivisect Workspace (vivisect.VivWorkspace).  Unless you only want to use a particular library mentioned above, most exploration is best done there.
 
-Because so much of Vivisect's power is in its flexibility, sometimes the options can seem confusing at first.  For instance, Vivisect can load from a binary file (a PE, Elf, IHEX, SREC, or blob), it can load from a File Descriptor (say, you already have the file open), or can be loaded from a Memory Object.  So don't be intimidated that the following three examples all load a VivWorkspace differently.  All are valid, but you'll get to use the one that suits your needs best.  
+Because so much of Vivisect's power is in its flexibility, sometimes the options can seem confusing at first.  For instance, Vivisect can load from a binary file (a PE, Elf, IHEX, SREC, U-Boot uImage, or blob), it can load from a File Descriptor (say, you already have the file open), or can be loaded from a Memory Object.  So don't be intimidated that the following three examples all load a VivWorkspace differently.  All are valid, but you'll get to use the one that suits your needs best.  
 
 
 Parsing a binary

@@ -1,0 +1,17 @@
+{
+  "root": "/home/dev/feedback/uid28765",
+  "B": "/home/dev/feedback/uid28765",
+  "sha": "7bd8c79400a843baa450cee2bfe7915aa695b8b6",
+  "wslDistro": "Ubuntu-26.04",
+  "source": {
+    "owner": "vivisect",
+    "repo": "vivisect",
+    "sha": "7bd8c79400a843baa450cee2bfe7915aa695b8b6"
+  },
+  "fork": {
+    "owner": "Rrr119",
+    "repo": "vivisect",
+    "cloneUrl": "https://github.com/Rrr119/vivisect.git"
+  },
+  "at": "2026-11-19T23:59:12.249Z"
+}

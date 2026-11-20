@@ -35,6 +35,10 @@ defconfig = {
                 'arch':'',
                 'offset':0,
             },
+            'uimage':{
+                'arch':'',
+                'bigend':False,
+            },
         },
         'analysis':{
             'pointertables':{
@@ -98,6 +102,10 @@ docconfig = {
             'srec':{
                 'arch':'What architecture is the srec dump?',
                 'offset':'Skip over initial bytes in the file',
+            },
+            'uimage':{
+                'arch':'What architecture is the uImage payload? (defaults to the ih_arch field)',
+                'bigend':'Is the uImage payload big-endian?',
             },
         },
 

@@ -17,6 +17,7 @@ import hashlib
 import zipfile
 
 import vstruct.defs.macho as vs_macho
+import vstruct.defs.uimage as vs_uimage
 
 def md5File(filename):
     d = hashlib.md5()
@@ -67,6 +68,10 @@ def guessFormat(bytez):
     bytemagic = struct.unpack('<I', bytez[:4])[0]
     if bytemagic in macho_magics:
         return 'macho'
+
+    # the U-Boot legacy image magic is stored big-endian
+    if struct.unpack('>I', bytez[:4])[0] == vs_uimage.IH_MAGIC:
+        return 'uimage'
 
     if bytez[0] == ord(':'):
         return 'ihex'

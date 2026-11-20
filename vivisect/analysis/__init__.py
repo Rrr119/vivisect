@@ -208,7 +208,7 @@ def addAnalysisModules(vw):
         vw.addFuncAnalysisModule("vivisect.analysis.generic.impapi")
         vw.addFuncAnalysisModule("vivisect.analysis.generic.thunks")
 
-    elif fmt in ('ihex', 'srec'): # Intel HEX  or SRECORD (similar) #################
+    elif fmt in ('ihex', 'srec', 'uimage'): # Intel HEX, SRECORD or U-Boot uImage ##
 
         vw.addAnalysisModule("vivisect.analysis.generic.entrypoints")
         vw.addAnalysisModule("vivisect.analysis.generic.funcentries")

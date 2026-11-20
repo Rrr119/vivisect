@@ -2,6 +2,13 @@
 Vivisect Changelog
 ******************
 
+Unreleased
+==========
+Features
+--------
+- Add a U-Boot legacy uImage firmware loader with header/payload segment
+  mapping, gzip payload support and entry point registration.
+
 V1.3.2 - 2026-03-30
 ===================
 Fixes
